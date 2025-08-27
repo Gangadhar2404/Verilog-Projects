@@ -112,4 +112,4 @@ This module buffers data **within the same clock domain** for reliable sequentia
 
 ---
 
-## 📂 Directory Structure
+
