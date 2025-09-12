@@ -8,9 +8,6 @@ This project implements a **5-stage pipelined MIPS-like processor** in Verilog w
 - Two-phase clocking (`CLK1`, `CLK2`) to separate pipeline stages  
 - Simple branch flush and HALT handling
 
-
-![Pipeline Diagram](44ef724e-5274-4385-bb33-32e48d0f2ad1.png)
-
 ---
 
 ## 📂 Project Structure
@@ -149,6 +146,7 @@ WB: CLK1
 ---
 
 <img width="1887" height="603" alt="pipelining_Schematic" src="https://github.com/user-attachments/assets/19744afc-4e25-43b0-bb07-a0157a7028de" />
+
 
 
 
