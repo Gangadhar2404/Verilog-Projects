@@ -13,7 +13,9 @@ This project implements a **5-stage pipelined MIPS-like processor** in Verilog w
 ## 📂 Project Structure
 
 ├── RISC_MIPS.v # Pipelined processor design
+
 ├── Tb_RISC_MIPS.v # Testbench with instructions and verification
+
 ├── README.md # Documentation
 
 
@@ -144,6 +146,7 @@ WB: CLK1
 
 
 ---
+
 
 
 
