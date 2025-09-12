@@ -14,17 +14,29 @@ This project implements a **single-cycle RISC-V-like processor** in Verilog with
 ## 📂 Project Structure
 
 ├── TopModule.v # Top-level processor module
+
 ├── Program_Counter.v # PC logic
+
 ├── Adder.v # Adder for PC + offset
+
 ├── Instruction_Memory.v
+
 ├── Register_file.v
+
 ├── Sign_Extend.v
+
 ├── ALU.v
+
 ├── ALU_Decoder.v
+
 ├── Control_unit.v
+
 ├── Data_Memory.v
+
 ├── mux1.v / mux2.v
+
 ├── Tb_TopModule.v # Testbench with simulation and verification
+
 ├── README.md
 
 
@@ -109,7 +121,7 @@ dut.IM.I_Mem[4] = 32'b0000000_00010_00001_010_01010_0110011; // SLT x10,x1,x2
 
 
 ```
-
+---
 ## Sample expected results:
 
 Register	Value
@@ -123,7 +135,7 @@ x15	        15
 
 Zero, Negative, Overflow, Cout
 
-##⚡ Notes
+## ⚡ Notes
 
 x0 is hardwired to 0.
 
@@ -185,4 +197,5 @@ ALU sets standard flags (Z, N, V, C) for result evaluation.
 ## 📚 References
 
 - MERL-DSU – RISC-V processor pipeline architecture reference
+
 
