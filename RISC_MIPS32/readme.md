@@ -145,6 +145,6 @@ WB: CLK1
 
 ---
 
-If you want, I can **also make a visual diagram of instruction fields + pipeline flow** that you can include in this README for better clarity.  
+<img width="1887" height="603" alt="pipelining_Schematic" src="https://github.com/user-attachments/assets/19744afc-4e25-43b0-bb07-a0157a7028de" />
 
-Do you want me to make that diagram?
+
