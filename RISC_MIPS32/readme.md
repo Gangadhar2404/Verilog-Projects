@@ -107,9 +107,10 @@ cpu.MEM[4] = {6'b000000, 5'd1, 5'd2, 5'd3, 11'd0}; // ADD R3,R1,R2
 cpu.MEM[13]= {6'b001001, 5'd0, 5'd3, 16'd30};   // SW R3,30(R0)
 cpu.MEM[16]= {6'b001000, 5'd0, 5'd12,16'd30};   // LW R12,30(R0)
 cpu.MEM[34]= {6'b111111, 26'd0};                // HALT
+```
+---
 
-
-Expected results (partial):
+## Expected results (partial):
 
 R1  = 5
 R2  = 10
@@ -127,14 +128,13 @@ Branch instructions flush the pipeline to avoid incorrect execution
 
 Throughput: 1 instruction per cycle after pipeline is filled
 
-📊 Pipeline Diagram (Conceptual)
-
+## 📊 Pipeline Diagram (Conceptual)
+```
 Cycle:   1    2    3    4    5    6    7
 Instr1:  IF -> ID -> EX -> MEM -> WB
 Instr2:       IF -> ID -> EX -> MEM -> WB
 Instr3:            IF -> ID -> EX -> MEM -> WB
-...
-
+```
 
 IF/EX: CLK1
 
@@ -145,7 +145,6 @@ WB: CLK1
 
 ---
 
-<img width="1887" height="603" alt="pipelining_Schematic" src="https://github.com/user-attachments/assets/19744afc-4e25-43b0-bb07-a0157a7028de" />
 
 
 
