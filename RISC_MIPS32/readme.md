@@ -120,7 +120,7 @@ R3  = 15
 R12 = 15
 MEM[30] = 15
 
-⚡ Notes
+## ⚡ Notes
 
 x0 (REG_FILE[0]) is hardwired to 0
 
@@ -137,6 +137,7 @@ Instr1:  IF -> ID -> EX -> MEM -> WB
 Instr2:       IF -> ID -> EX -> MEM -> WB
 Instr3:            IF -> ID -> EX -> MEM -> WB
 ```
+## Clock Distribution
 
 IF/EX: CLK1
 
@@ -146,6 +147,7 @@ WB: CLK1
 
 
 ---
+
 
 
 
